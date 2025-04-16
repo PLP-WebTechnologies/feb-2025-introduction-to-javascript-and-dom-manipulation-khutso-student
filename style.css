@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+p {
+    color: #ff0073;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #ff7f00;
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    letter-spacing: 2px;
+    border: 1px solid #ff7f00;
+    color: #ff7f00;
+}
